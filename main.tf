@@ -5,7 +5,7 @@ locals {
 
 
 module "label" {
-  source      = "git::git::https://github.com/pontostroy/terraform-null-label.git?ref=master"
+  source      = "git::https://github.com/pontostroy/terraform-null-label.git?ref=master"
   namespace   = var.namespace
   name        = var.name
   stage       = var.stage
